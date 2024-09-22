@@ -226,7 +226,7 @@ class Help(loader.Module):
         )
 
     @loader.command()
-    async def help(self, message: Message):
+    async def mods(self, message: Message):
         args = utils.get_args_raw(message)
         force = False
         if "-f" in args:
