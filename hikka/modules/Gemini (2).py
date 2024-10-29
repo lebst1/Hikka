@@ -32,7 +32,7 @@ class Gemini(loader.Module):
             ),
             loader.ConfigValue(
                 "text",
-                """<emoji document_id=5240027055088745962>🌟</emoji> <b>Вопрос:</b> {question}
+                """<emoji document_id=5240027055088745962>🌟</emoji> <b>иди нахуй</b> {question}
 
 <emoji document_id=5240027055088745962>🌟</emoji> <b>Ответ:</b> {answer}""",    
                 lambda: "Текст вывода",
